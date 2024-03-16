@@ -1,0 +1,144 @@
+
+.h_recomend > li
+{
+    margin-right: 7px;
+}
+.sho_count
+{
+    right: 0;
+}
+.search_icon
+{
+    left: 20px;
+}
+.sub_mega_title,.catgs_tit,.head_title,.prod_cont .pr_price .cur,..prod_cont .pr_img > .discount,.cu_name,.rev_title,.mail_cont .ffmail_input,footer .ff_title
+{
+    font-family: 'FrutigerLTArabic-65Bold';
+}
+.main_slider .swiper-button-prev
+{
+    left: 24px;
+}
+.main_slider .swiper-button-next
+{
+    right: 24px;
+}
+.main_slider .swiper-button-next:after
+{
+    content: '\f054';
+}
+.main_slider .swiper-button-prev:after
+{
+    content: '\f053';
+}
+.prod_cont .pr_img > .discount
+{
+    right: 10px;
+}
+.products_slider .swiper-button-next:after,.reviews_slider .swiper-button-next:after,.partner_slider .swiper-button-next:after
+{
+    content: '\e876';
+}
+.products_slider .swiper-button-prev:after,.reviews_slider .swiper-button-prev:after,.partner_slider .swiper-button-prev:after
+{
+    content: '\e875';
+}
+.products_slider .swiper-button-prev,.reviews_slider .swiper-button-prev,.partner_slider .swiper-button-prev
+{
+    left: -45px;
+}
+.products_slider .swiper-button-next,.reviews_slider .swiper-button-next,.partner_slider .swiper-button-next
+{
+    right: -45px;
+}
+.cust_icon
+{
+    margin-left: 20px;
+}
+.cust_reviews .rev_cont:after
+{
+    left: 24px;
+}
+.mail_cont .fm_check
+{
+    left: 23px;
+}
+.mail_cont .ffmail_input
+{
+    border-right: 1px solid #000000;
+}
+.cust_reviews .rev_cont:after
+{
+
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .products_slider .swiper-button-prev,.reviews_slider .swiper-button-prev,.partner_slider .swiper-button-prev
+    {
+        left: -32px;
+    }
+    .products_slider .swiper-button-next,.reviews_slider .swiper-button-next,.partner_slider .swiper-button-next
+    {
+        right: -32px;
+    }
+}
+
+@media (max-width:991px)	
+{
+    footer .fast_links .fsm_title:before
+    {
+        left: 20px;
+    }
+    .mail_cont .ffmail_input
+    {
+        border: 1px solid transparent;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+
+}
+
+
+
+
+
+@media (max-width:767px)	
+{
+    .main_nav
+    {
+        right: 0;
+    }
+    header .nav_bar
+    {
+        text-align: right;
+    }
+    .closebtn
+    {
+        left: 20px;
+    }
+    .lang_li
+    {
+        right: 20px;
+    }
+    .nav_bar .mega_menu,.nav_bar .mega_ul 
+    {
+        margin-right: 20px;
+    }
+    .nav_bar .sam_menu > li > a
+    {
+        text-align: right;
+    }
+    header .nav_bar .dir_anc:before,.sub_mega_title:before
+    {
+        left: 0px;
+    }
+    
+}
